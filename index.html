@@ -19,6 +19,29 @@
     
     <!-- Custom JavaScript -->
     <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+        }
+        .item {
+            background: #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -48,10 +71,11 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="giphy.webp" alt="creepy Plankton">
+            <img src="giphy.webp" alt="creepy Plankton"><br><br>
         </div>
         <div class="about-text">
             <h2>About Me</h2>
+            <br>
             <h4>Hi there! I'm Vinayak A Baraskar, also known as "Plankton."</h4><br>
             <p>As a recent BCA graduate, my passions extend across programming, art, and delving into the captivating realm of quantum mechanics. Currently, I'm gaining valuable insights as an intern at Stellar Idea Labs, where I harness my technical expertise to innovate in digital marketing strategies.</p><br>
             <p>Beyond my professional pursuits, I thrive on the synergy of creativity and analytical thinking, constantly seeking solutions to intricate challenges. Welcome to my portfolio, where I showcase my journey integrating technology, artistry, and digital strategies to make meaningful impacts.</p>
@@ -162,10 +186,9 @@
             </ul>
             </div>
             <div class="contact-icons">
-                <a href="https://www.geeksforgeeks.org/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://www.geeksforgeeks.org/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.geeksforgeeks.org/" target="_blank"><i class='bx bxl-github'></i></a>
-                <a title="+91 0000000000"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/vinayak-arvind/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/p1_nkt0n/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/14ChumBucket04" target="_blank"><i class='bx bxl-github'></i></a>
             </div>
         </div>
     </section>
